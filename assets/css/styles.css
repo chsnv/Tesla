@@ -1,0 +1,155 @@
+#solar-panels {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/img/Desktop-SolarPanels.jpeg?h=d0983d945b522376c537f34228f266e4") center / cover no-repeat;
+}
+
+#model-s {
+  height: 100%;
+  height: 100vh;
+  background: url("/assets/img/Desktop-ModelS.jpeg?h=bc5427137bca305e296257387bd54d67") center / cover no-repeat;
+}
+
+#model-3 {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/img/Desktop-Model3.jpeg?h=55b932c71ef20a88f62dcc69b254e2e9") center / cover no-repeat;
+}
+
+#model-x {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/img/Desktop-ModelX.jpeg?h=d21b5d2df4ff127ed33c4ece67b5d8cd") center / cover no-repeat;
+}
+
+#model-y {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/img/Desktop-ModelY.jpeg?h=eaa0dbff8f78b247b7da32211e4f41b0") center / cover no-repeat;
+}
+
+#solar-roof {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/img/Desktop-SolarRoof.jpeg?h=d312cf521c8e467012f81b37f96758d9") center / cover no-repeat;
+}
+
+#access {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/img/Desktop-Accessories.jpeg?h=e6b715385b976f62578e3421340fe2e8") center / cover no-repeat;
+}
+
+.nav-item {
+  font-size: .925rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-left {
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: .825rem;
+  background: rgba(36,38,44,0.86);
+  padding: .68rem 0;
+  border: none;
+}
+
+.btn-right {
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: .825rem;
+  background: rgba(173,171,173,0.39);
+  padding: .68rem 0;
+  border: none;
+}
+
+.btn-arrow {
+  background: rgba(0,98,204,0);
+  border: none;
+  margin-top: .5rem;
+}
+
+.arrow-icon {
+  font-size: 1.95rem;
+}
+
+.head-h {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 4em;
+}
+
+.head-p {
+  text-align: center;
+  font-size: .825rem;
+}
+
+.btn-contain {
+  max-width: 540px;
+  margin-bottom: 6em;
+}
+
+/ * Footer CSS Start */
+
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+
