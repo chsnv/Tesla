@@ -1,43 +1,48 @@
-#solar-panels {
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: #fff;
+  color: #1f1f1f;
+  font-size: .925rem;
+}
+
+section {
   width: 100%;
   height: 100vh;
-  background: url("/assets/img/Desktop-SolarPanels.jpeg?h=d0983d945b522376c537f34228f266e4") center / cover no-repeat;
+}
+
+#solar-panels {
+
+  background: url("../img/Desktop-SolarPanels.jpeg?") center / cover no-repeat fixed;
 }
 
 #model-s {
-  height: 100%;
-  height: 100vh;
-  background: url("/assets/img/Desktop-ModelS.jpeg?h=bc5427137bca305e296257387bd54d67") center / cover no-repeat;
+
+  background: url("../img/Desktop-ModelS.jpeg") center / cover no-repeat fixed;
 }
 
 #model-3 {
-  width: 100%;
-  height: 100vh;
-  background: url("/assets/img/Desktop-Model3.jpeg?h=55b932c71ef20a88f62dcc69b254e2e9") center / cover no-repeat;
+
+  background: url("/assets/img/Desktop-Model3.jpeg") center / cover no-repeat fixed;
 }
 
 #model-x {
-  width: 100%;
-  height: 100vh;
-  background: url("/assets/img/Desktop-ModelX.jpeg?h=d21b5d2df4ff127ed33c4ece67b5d8cd") center / cover no-repeat;
+
+  background: url("../img/Desktop-ModelX.jpeg") center / cover no-repeat fixed;
 }
 
 #model-y {
-  width: 100%;
-  height: 100vh;
-  background: url("/assets/img/Desktop-ModelY.jpeg?h=eaa0dbff8f78b247b7da32211e4f41b0") center / cover no-repeat;
+
+  background: url("../img/Desktop-ModelY.jpeg") center / cover no-repeat fixed;
 }
 
 #solar-roof {
-  width: 100%;
-  height: 100vh;
-  background: url("/assets/img/Desktop-SolarRoof.jpeg?h=d312cf521c8e467012f81b37f96758d9") center / cover no-repeat;
+
+  background: url("../img/Desktop-SolarRoof.jpeg?") center / cover no-repeat fixed;
 }
 
 #access {
-  width: 100%;
-  height: 100vh;
-  background: url("/assets/img/Desktop-Accessories.jpeg?h=e6b715385b976f62578e3421340fe2e8") center / cover no-repeat;
+
+  background: url("../img/Desktop-Accessories.jpeg") center / cover no-repeat fixed;
 }
 
 .nav-item {
@@ -50,7 +55,7 @@
   border-radius: 25px;
   text-transform: uppercase;
   font-size: .825rem;
-  background: rgba(36,38,44,0.86);
+  background: rgba(36, 38, 44, 0.86);
   padding: .68rem 0;
   border: none;
 }
@@ -59,13 +64,13 @@
   border-radius: 25px;
   text-transform: uppercase;
   font-size: .825rem;
-  background: rgba(173,171,173,0.39);
+  background: rgba(173, 171, 173, 0.39);
   padding: .68rem 0;
   border: none;
 }
 
 .btn-arrow {
-  background: rgba(0,98,204,0);
+  background: rgba(0, 98, 204, 0);
   border: none;
   margin-top: .5rem;
 }
@@ -90,8 +95,7 @@
   margin-bottom: 6em;
 }
 
-/ * Footer CSS Start */
-
+/* Footer CSS Start */
 .footer-basic {
   padding: 40px 0;
   background-color: #ffffff;
@@ -102,8 +106,9 @@
   padding: 0;
   list-style: none;
   text-align: center;
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: .825rem;
+  font-weight: 600;
+  line-height: .5;
   margin-bottom: 0;
 }
 
@@ -126,7 +131,7 @@
   padding-bottom: 25px;
 }
 
-.footer-basic .social > a {
+.footer-basic .social>a {
   font-size: 24px;
   width: 40px;
   height: 40px;
@@ -140,7 +145,7 @@
   opacity: 0.75;
 }
 
-.footer-basic .social > a:hover {
+.footer-basic .social>a:hover {
   opacity: 0.9;
 }
 
@@ -151,5 +156,3 @@
   color: #aaa;
   margin-bottom: 0;
 }
-
-
