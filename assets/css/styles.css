@@ -22,7 +22,7 @@ section {
 
 #model-3 {
 
-  background: url("/assets/img/Desktop-Model3.jpeg") center / cover no-repeat fixed;
+  background: url("../img/Desktop-Model3.jpeg") center / cover no-repeat fixed;
 }
 
 #model-x {
