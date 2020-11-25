@@ -1,0 +1,137 @@
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: #fff;
+  color: #1f1f1f;
+  font-size: .925rem;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+#solar-panels {
+
+  background: url("../img/Desktop-SolarPanels.jpeg") center / cover no-repeat fixed;
+}
+
+#model-s {
+
+  background: url("../img/Desktop-ModelS.jpeg") center / cover no-repeat fixed;
+}
+
+#model-3 {
+
+  background: url("../img/Desktop-Model3.jpeg") center / cover no-repeat fixed;
+}
+
+#model-x {
+
+  background: url("../img/Desktop-ModelX.jpeg") center / cover no-repeat fixed;
+}
+
+#model-y {
+
+  background: url("../img/Desktop-ModelY.jpeg") center / cover no-repeat fixed;
+}
+
+#solar-roof {
+
+  background: url("../img/Desktop-SolarRoof.jpeg?") center / cover no-repeat fixed;
+}
+
+#access {
+
+  background: url("../img/Desktop-Accessories.jpeg") center / cover no-repeat fixed;
+}
+
+.nav-item {
+  font-size: .925rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-left {
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: .825rem;
+  background: rgba(36, 38, 44, 0.86);
+  color: #fff;
+  padding: .8em 18%;
+  border: none;
+}
+.btn-last {
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: .825rem;
+  background: rgba(36, 38, 44, 0.86);
+  color: #fff;
+  padding: .7em 7%; 
+  border: none;
+}
+
+.btn-right {
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: .825rem;
+  background: rgba(173, 171, 173, 0.39);
+  padding: .8em 18%;
+  border: none;
+}
+
+.btn-arrow {
+  background: rgba(0, 98, 204, 0);
+  border: none;
+  margin-top: .5rem;
+}
+
+.arrow-icon {
+  font-size: 1.95rem;
+}
+
+.head-h {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 4em;
+}
+
+.head-p {
+  text-align: center;
+  font-size: .825rem;
+}
+
+.btn-contain {
+  max-width: 540px;
+  margin-bottom: 6em;
+}
+
+/* Footer CSS Start */
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #1a1b1b;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: .8rem;
+  line-height: 1.6;
+  margin-bottom: 0
+}
+
+.footer-basic li {
+  padding: 0 2px
+}
+
+.footer-basic ul a {
+  color: inherit;
+  /* text-decoration: underline; */
+  /* opacity: .9 */
+}
+
+.footer-basic ul a:hover {
+  opacity: 1
+}
+/* Footer CSS End  */
