@@ -66,7 +66,8 @@ section {
   font-size: .825rem;
   background: rgba(36, 38, 44, 0.86);
   color: #fff;
-  padding: .7em 7%; 
+  padding: .7em 7%;
+  margin-bottom: 6em; 
   border: none;
 }
 
@@ -117,6 +118,7 @@ section {
   list-style: none;
   text-align: center;
   font-size: .8rem;
+  font-weight: 500;
   line-height: 1.6;
   margin-bottom: 0
 }
